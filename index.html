@@ -4,22 +4,24 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>웹 스터디 ::: 여상수</title>
+  <title>웹 스터디 ::: 김영운</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css"
     integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="./css/style.css" />
+  
 </head>
 
 <body>
   <div id="head_title">
     <h1>웹화면 구현 수업의 웹스터디 페이지</h1>
-    <h2><!-- TODO: 자기이름을 써주세요--></h2>
+    <h2>김영운</h2>
     <p>
       안녕하세요!<br />
-      <!-- TODO: 간단한 자기소개를 써주세요(1줄~2줄) -->
+      안녕하세요 목원대학교를 재학중인 19학번 김영운입니다.
       <br /><br />
       <!-- FIXME: 폰트어썸에서 3개~5개 정도를 넣어주세요 -->
+      
       <i class="fa-brands fa-tiktok fa-2xl" style="color: #f20202"></i>
       <i class="fa-brands fa-facebook fa-beat fa-2xl" style="color: #74c0fc"></i>
       <i class="fa-brands fa-facebook fa-2xl" style="color: #74c0fc"></i>
@@ -31,6 +33,21 @@
 
   <!-- TODO: 애니메이션 속성으로 전환 효과 제어하기 p.250 -->
 
+<div id="ani3">
+  div박스<br>
+  <button id="start">▶</button>
+<button id="paused">▮</button>
+</div>
+
+<div id="trans5">
+  움직이는 박스
+
+</div>
+
+<!-- <button id="start">start</button>
+<button id="paused">paused</button> -->
+
+
 
   <!-- FIXME: 아래쪽 주석 삭제하기 -->
   
@@ -40,26 +57,28 @@
     <!-- FIXME: 지금 예제를 대체하는 콘텐츠로, 영화 또는 드라마 콘텐츠 4개 작성 -->
     <div class="flex-item">
       <dl>
-        <dt>영화소개 : 듄2</dt>
+        <dt>영화소개 : 스즈메의 문단속</dt>
         <dd>
-          <a target="_blank" href="https://namu.wiki/w/%EB%93%84:%20%ED%8C%8C%ED%8A%B8%202"><img
-              src="https://search.pstatic.net/common?quality=75&direct=true&src=https%3A%2F%2Fmovie-phinf.pstatic.net%2F20240207_151%2F1707288437263gBsdd_JPEG%2Fmovie_image.jpg"
+          <a target="_blank" href="https://namu.wiki/w/%EC%8A%A4%EC%A6%88%EB%A9%94%EC%9D%98%20%EB%AC%B8%EB%8B%A8%EC%86%8D"><img
+              src="https://i.namu.wiki/i/Ydg1gUevOH-R_NDHY6zOF4150ZgS8sDpxErXYR08N6Tu2vxn4sJTx2HFZrtHpALVdHRhlNQgQtuGRAF3hYtrg55OAwraOYXZxHnAIsfibedm_Ndg1yCdougRMx-81U-SL-_-p3IstYr8rc8bSZotkA.webp"
               alt="" /></a>
-          2024년 2월 28일에 개봉한 드니 빌뇌브 감독의 듄 시리즈 실사영화.
-          2021년 영화 〈듄〉의 속편이다.
+              2022년 11월 11일에 일본에서 개봉한 신카이 마코토 감독의 애니메이션 영화.
+              2024년 1월 10일 "스즈메의 문단속:다녀왔어"로 재개봉했다.
         </dd>
       </dl>
     </div>
     <div class="flex-item">
       <dl>
-        <dt>영화소개 : 냉정과 열정 사이</dt>
+        <dt>영화소개 :오늘 밤, 세계에서 이 사랑이 사라진다 해도</dt>
         <dd>
           <a target="_blank"
-            href="https://namu.wiki/w/%EB%83%89%EC%A0%95%EA%B3%BC%20%EC%97%B4%EC%A0%95%20%EC%82%AC%EC%9D%B4"><img
-              src="https://i.namu.wiki/i/nfVqC1FuFaC27Kf6J_wHxE858tdwwFyP_2wZo4qIIB1VxSnOF-PJ7NyHZz9uySo9bz3gc5lr4cJHAuWvT8QsLGh38N-b8ci42Ndh5hUgN7D_-abhZL8ZT35Jz3_dN2d8GAnVvx3RP3eeuSXfX3sxUw.webp"
+            href="https://namu.wiki/w/%EC%98%A4%EB%8A%98%20%EB%B0%A4%2C%20%EC%84%B8%EA%B3%84%EC%97%90%EC%84%9C%20%EC%9D%B4%20%EC%82%AC%EB%9E%91%EC%9D%B4%20%EC%82%AC%EB%9D%BC%EC%A7%84%EB%8B%A4%20%ED%95%B4%EB%8F%84"><img
+              src="https://i.namu.wiki/i/QPdLyVIXoo2v5PBeqw204KnNIiYQAeS8IuB-KistYK1uhZMljA3kB6Q8BkfspXBnXHZBfStbI9Z3DY4UrOuNc-Hi9OdAQN8-9xTySbAssP0a6bmXj9RN4paxgHEuvU3ldoRCz-cGCzazr-Fj4gUj9w.webp"
               alt="" /></a><br />
-          2001년에 타케노우치 유타카, 진혜림 주연의 영화로 제작되었다.
-          타다이마 오카에리 엔딩의 전형적인 영화.
+              2019년 10월, 「마음은 너를 그리니까」 라는 제목으로 투고되었던 
+              이 작품은 간질간질한 청춘의 로맨스를 전혀 예측할 수 없는 국면으로 끌고 간다.
+            한 번 자고 일어나면 기억이 리셋되는 선행성 기억상실증을 앓는 소녀 히노 마오리와 
+            무미건조한 인생을 살고 있는 평범한 고등학생 카미야 토루의 풋풋하고 애틋한 사랑 이야기.
         </dd>
       </dl>
     </div>
@@ -84,7 +103,7 @@
         <dt>영화소개 : 범죄도시4</dt>
         <dd>
           <a target="_blank" href="https://namu.wiki/w/%EB%B2%94%EC%A3%84%EB%8F%84%EC%8B%9C4"><img
-              src="https://i.namu.wiki/i/UV5cDIV4GTiR81tpwd8qsWzna_HaavSVxpgjwWoJgV9ydIbARV4-9_1KaBhQT8Esd20jCHUcgD8ZXm8pCJirRTIWeFbXs6xIGHFHDv6ywuWbDTk7X_afpPTjLXOltjfhNUDTSpaelAvhJsEU7wBSFA.webp"
+              src="https://i.namu.wiki/i/QPdLyVIXoo2v5PBeqw204KnNIiYQAeS8IuB-KistYK1uhZMljA3kB6Q8BkfspXBnXHZBfStbI9Z3DY4UrOuNc-Hi9OdAQN8-9xTySbAssP0a6bmXj9RN4paxgHEuvU3ldoRCz-cGCzazr-Fj4gUj9w.webp"
               alt="" /></a>
           2024년 2월 28일에 개봉한 드니 빌뇌브 감독의 듄 시리즈 실사영화.
           2021년 영화 〈듄〉의 속편이다.
@@ -99,26 +118,28 @@
     <!-- FIXME: 지금 예제를 대체하는 콘텐츠로, 영화 또는 드라마 콘텐츠 4개 작성 -->
     <div class="grid-item">
       <dl>
-        <dt>영화소개 : 듄2</dt>
+        <dt>영화소개 : 스즈메의 문단속</dt>
         <dd>
-          <a target="_blank" href="https://namu.wiki/w/%EB%93%84:%20%ED%8C%8C%ED%8A%B8%202"><img
-              src="https://search.pstatic.net/common?quality=75&direct=true&src=https%3A%2F%2Fmovie-phinf.pstatic.net%2F20240207_151%2F1707288437263gBsdd_JPEG%2Fmovie_image.jpg"
+          <a target="_blank" href="https://namu.wiki/w/%EC%8A%A4%EC%A6%88%EB%A9%94%EC%9D%98%20%EB%AC%B8%EB%8B%A8%EC%86%8D"><img
+              src="https://i.namu.wiki/i/Ydg1gUevOH-R_NDHY6zOF4150ZgS8sDpxErXYR08N6Tu2vxn4sJTx2HFZrtHpALVdHRhlNQgQtuGRAF3hYtrg55OAwraOYXZxHnAIsfibedm_Ndg1yCdougRMx-81U-SL-_-p3IstYr8rc8bSZotkA.webp"
               alt="" /></a>
-          2024년 2월 28일에 개봉한 드니 빌뇌브 감독의 듄 시리즈 실사영화.
-          2021년 영화 〈듄〉의 속편이다.
+              2022년 11월 11일에 일본에서 개봉한 신카이 마코토 감독의 애니메이션 영화.
+              2024년 1월 10일 "스즈메의 문단속:다녀왔어"로 재개봉했다.
         </dd>
       </dl>
     </div>
     <div class="grid-item">
       <dl>
-        <dt>영화소개 : 냉정과 열정 사이</dt>
+        <dt>영화소개 : 오늘 밤, 세계에서 이 사랑이 사라진다 해도</dt>
         <dd>
           <a target="_blank"
-            href="https://namu.wiki/w/%EB%83%89%EC%A0%95%EA%B3%BC%20%EC%97%B4%EC%A0%95%20%EC%82%AC%EC%9D%B4"><img
-              src="https://i.namu.wiki/i/nfVqC1FuFaC27Kf6J_wHxE858tdwwFyP_2wZo4qIIB1VxSnOF-PJ7NyHZz9uySo9bz3gc5lr4cJHAuWvT8QsLGh38N-b8ci42Ndh5hUgN7D_-abhZL8ZT35Jz3_dN2d8GAnVvx3RP3eeuSXfX3sxUw.webp"
+            href="https://namu.wiki/w/%EC%98%A4%EB%8A%98%20%EB%B0%A4%2C%20%EC%84%B8%EA%B3%84%EC%97%90%EC%84%9C%20%EC%9D%B4%20%EC%82%AC%EB%9E%91%EC%9D%B4%20%EC%82%AC%EB%9D%BC%EC%A7%84%EB%8B%A4%20%ED%95%B4%EB%8F%84"><img
+              src="https://i.namu.wiki/i/QPdLyVIXoo2v5PBeqw204KnNIiYQAeS8IuB-KistYK1uhZMljA3kB6Q8BkfspXBnXHZBfStbI9Z3DY4UrOuNc-Hi9OdAQN8-9xTySbAssP0a6bmXj9RN4paxgHEuvU3ldoRCz-cGCzazr-Fj4gUj9w.webp"
               alt="" /></a><br />
-          2001년에 타케노우치 유타카, 진혜림 주연의 영화로 제작되었다.
-          타다이마 오카에리 엔딩의 전형적인 영화.
+              2019년 10월, 「마음은 너를 그리니까」 라는 제목으로 투고되었던 
+              이 작품은 간질간질한 청춘의 로맨스를 전혀 예측할 수 없는 국면으로 끌고 간다.
+            한 번 자고 일어나면 기억이 리셋되는 선행성 기억상실증을 앓는 소녀 히노 마오리와 
+            무미건조한 인생을 살고 있는 평범한 고등학생 카미야 토루의 풋풋하고 애틋한 사랑 이야기.
         </dd>
       </dl>
     </div>
@@ -151,6 +172,19 @@
       </dl>
     </div>
   </div>
+
+  <h1>화면 설계 그리드</h1>
+
+    <div class="grid-layout"></div>
+
+    <div class="gl-item header" id="header">헤더 부분</div>
+    <div class="gl-item sidebar" id="sidebar>사이드바 부분</div>
+    <div class="gl-item content" id="content>메인 콘텐츠 부분</div>
+    <div class="gl-item footer" id="footer>풋터 부분</div>
+
+  </div>
+
+  <script src="./js/main.js"></script>
 
 </body>
 
